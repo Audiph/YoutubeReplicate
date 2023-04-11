@@ -44,14 +44,13 @@
   height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(204, 204, 204);
+  border: 1px solid rgb(204, 204, 204);
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 .search-bar::placeholder {
   font-family: Roboto, Arial;
+  font-size: 16px;
 }
 
 .search-button {
@@ -71,7 +70,6 @@
 .youtube-apps-icon-container,
 .notifications-icon-container,
 .current-user-picture-container {
-  font-family: Roboto, Arial;
   display: flex;
   justify-content: center;
   align-items: center;
